@@ -1,0 +1,8 @@
+splitw
+splitw
+splitw
+select-layout even-vertical
+send-keys -t 1 'python ftpd.py' C-m
+send-keys -t 3 'FLASK_APP=lsic.py flask run' C-m
+bind b send-keys -t 2 'python LstBackend.py' C-m
+bind f send-keys -t 4 'python LstFrontend.py' C-m
